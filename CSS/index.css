@@ -1,0 +1,55 @@
+h1{
+
+    background-image:linear-gradient(to left, #ff008e 35%,  #f00b51 100%, #fd02d3 80% );
+   -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: unset;
+    text-align: center;
+
+}
+#content{
+    width: 100%;
+    text-align: center;
+    font-size: 25px;
+    color: white;
+}
+
+#text{
+    margin:25px auto;
+    font-weight: bold;
+    line-height: 25px;
+}
+#memberBtn{
+    width: 300px;
+    font-weight: bold;
+    padding: 15px 0;
+    line-height: 25px;
+    font-size: 20px;
+    text-align: center;
+    margin: 80px 10px;
+    background-color:transparent ;
+    color: white;
+    border-image: linear-gradient(to left, #ffc000 0%, #f35322 31%, #fdc100 100%) 1;
+    cursor: pointer;
+    position:relative;
+    overflow: hidden;
+}
+span{
+    background-image:linear-gradient(to left, #ffc000 0%, #f35322 31%, #fdc100 100%);
+    height: 100%;
+    width: 0;
+    position: absolute;
+    left:0;
+    bottom: 0;
+    z-index: -1;
+    transition: 0.5s;
+
+}
+#memberBtn:hover span{
+    width: 100%;
+
+}
+.fa-user-plus {
+    padding-right: 20px;
+}
