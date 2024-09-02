@@ -11,23 +11,30 @@
     <meta name="author" content="Muscle Gym" />
     <meta property="og:title" content="Muscle Gym - Unleash Your Inner Strength" />
     <meta property="og:description" content="Discover Muscle Gym's locations and programs to help you achieve your dream body. Become a member today!" />
+    <link rel="stylesheet" type="text/css" href="../CSS/index.css">
+    
+    <link rel="stylesheet" type="text/css" href="../CSS/mainStyle.css">
     
     <link rel="icon" type="image/png" href="../images/favicon.png">
     <script src="https://kit.fontawesome.com/dea851747b.js" crossorigin="anonymous"></script>
   </head>
 
-  <body style="background-color: aquamarine;">
+  <body>
 
     
-    <header>
-        <nav >
-            <a href="index.html" ><img src="../images/logo.png"></a>
-            <a href="locations.html" >Locations</a>
-            <a href="personalTrainers.html">Personal trainers</a>
-            <a href="career.html">Career</a>
-            <a href="membership.html">Membership</a>
-            <a href="diets.html">Diets</a>
-            <a href="login.html">Login</a>  
+    <header >
+        <nav id="navbar">
+           <a href="index.html" ><img src="../images/logo.png" id="logo"></a></li>
+            <ul>
+                
+                <li><a href="locations.html" >Locations</a></li>
+                <li><a href="personalTrainers.html">Personal trainers</a></li>
+                <li><a href="career.html">Career</a></li>
+                <li><a href="membership.html">Membership</a></li>
+                <li><a href="diets.html">Diets</a></li>
+                <li><a href="login.html">Login</a></li>
+            </ul>
+              
         </nav>
     </header>
    
@@ -37,24 +44,25 @@
         Your browser does not support the audio element.
     </audio>
 
-    <div>
+    <div id="content">
         <h1> UNLEASH YOUR INNER STRENGTH!</h1>
         <p id="text">Discover our locations and programs which will help you achieve your dream body!</p>
-        <a href="membership.html" style="text-decoration: none;"><button id="memberBtn" style="display: block; margin: 50px auto;"><i class="fa-solid fa-user-plus" style="color: #000000;"></i>BECOME A MEMBER</button></a>
+        <a href="Membership.html"><button id="memberBtn"><span></span> <i class="fa-solid fa-user-plus" style="color: #ffffff;"></i>BECOME A MEMBER</button></a>
     </div>
     
     
 
     
-    <footer style="text-align: center; margin-top: auto;">
-        <div style="display: flex; justify-content: center;">
-            <div>
+    <footer id="footer">
+        <div class="description">
+
+            <div id="contact">
                 <h3>Contact us</h3>
-                <p>Tel: 0772165094</p>
+                <p><a href="tel:0772165094">0772165094</a> </p>
                 <p><a href="mailto:aschiop2002@yahoo.com">Email</a></p>
             </div>
     
-            <div>
+            <div id="location">
                 <h3>Locations</h3>
                 <p><a href="cluj.html">Cluj Napoca</a></p>
                 <p><a href="timisoara.html">Timisoara</a></p>
@@ -64,7 +72,7 @@
                 <p><a href="oradea.html">Oradea</a></p>
             </div>
     
-            <div>
+            <div id="partners">
                 <h3>Partners</h3>
                 <p><a href="https://gymbeam.ro/">Gym Beam</a></p>
                 <p><a href="https://www.myprotein.ro/">MyProtein</a></p>
