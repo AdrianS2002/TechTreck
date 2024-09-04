@@ -6,10 +6,12 @@
     <meta name="description" content="Explore Muscle Gym's membership plans and choose the program that suits your fitness goals. From Bronze to Gold, find the perfect plan for you!" />
 
     <meta name="keywords" content="Muscle Gym, membership plans, fitness programs, Bronze plan, Silver plan, Gold plan, gym membership, personal trainer" />
+    <link rel="stylesheet" type="text/css" href="../CSS/membership.css">
     <link rel="stylesheet" type="text/css" href="../CSS/mainStyle.css">
     <meta name="author" content="Muscle Gym" />
     <title>Muscle Gym - Membership</title>
     <link rel="icon" type="image/png" href="../images/favicon.png">
+    
     <script src="https://kit.fontawesome.com/dea851747b.js" crossorigin="anonymous"></script>
   </head>
 
@@ -34,50 +36,47 @@
 
     <div>
         <h1>CHOOSE YOUR PROGRAM</h1>
-        <div style="display: flex;">
-            <div>
+        <div id="membership">
+            <div id="bronze">
                 <h2>BRONZE</h2>
                
                 <ul>
-                    <li> Full access to all fitness facilities for 30 days <i class="fa-solid fa-dumbbell" style="color: #000000;"></i></li>
-                    <li> Full access to all classes <i class="fa-solid fa-person-running" style="color: #010000;"></i> </li>
-                    <li> 10 days access to sauna <i class="fa-solid fa-hot-tub-person" style="color: #000000;"></i></li>
-                    <li> Parking <i class="fa-sharp fa-solid fa-square-parking" style="color: #000000;"></i></li>
-                    <br>
-                    <br>
-                    <br>
+                    <li> Full access to all fitness facilities for 30 days <i class="fa-solid fa-dumbbell" style="color: #ffffff;"></i></li>
+                    <li> Full access to all classes <i class="fa-solid fa-person-running" style="color: #ffffff;"></i> </li>
+                    <li> 10 days access to sauna <i class="fa-solid fa-hot-tub-person" style="color: #ffffff;"></i></li>
+                    <li> Parking <i class="fa-sharp fa-solid fa-square-parking" style="color: #ffffff;"></i></li>
+                    
                 </ul>
-                <h3 class="price">80 <i class="fa-solid fa-dollar-sign" style="color: #CD7F32;"></i></h3>
+                <h3 class="price">80 <i class="fa-solid fa-dollar-sign" id="bronzeSign"></i></h3>
             </div>
 
-            <div>
+            <div id="silver">
                 <h2>SILVER</h2>
                 
                 <ul >
-                    <li> Full access to all fitness facilities for 30 days <i class="fa-solid fa-dumbbell" style="color: #000000;"></i></li>
-                    <li> Full access to all classes <i class="fa-solid fa-person-running" style="color: #000000;"></i></li>
-                    <li> 30 days access to sauna <i class="fa-solid fa-hot-tub-person" style="color: #000000;"></i> </li>
-                    <li> 15 days access to swimming pool <i class="fa-sharp fa-solid fa-person-swimming" style="color: #000000;"></i></li>
-                    <li> Parking <i class="fa-sharp fa-solid fa-square-parking" style="color: #000000;"></i></li>
-                    <br>
-                    <br>
+                    <li> Full access to all fitness facilities for 30 days <i class="fa-solid fa-dumbbell"></i></li>
+                    <li> Full access to all classes <i class="fa-solid fa-person-running"></i></li>
+                    <li> 30 days access to sauna <i class="fa-solid fa-hot-tub-person"></i> </li>
+                    <li> 15 days access to swimming pool <i class="fa-sharp fa-solid fa-person-swimming"></i></li>
+                    <li> Parking <i class="fa-sharp fa-solid fa-square-parking"     ></i></li>
+                   
                 </ul>
-                <h3 class="price">130 <i class="fa-solid fa-dollar-sign" style="color: #C0C0C0;"></i></h3>
+                <h3 class="price">130 <i class="fa-solid fa-dollar-sign" id="silverSign"></i></h3>
             </div>
 
-            <div>
+            <div id="gold">
                 <h2>GOLD</h2>
                 
                 <ul >
-                    <li> Full access to all fitness facilities for 30 days<i class="fa-solid fa-dumbbell" style="color: #000000;"></i> </li>
-                    <li> Full access to all classes <i class="fa-solid fa-person-running" style="color: #000000;"></i></li>
-                    <li> 30 days access to sauna <i class="fa-solid fa-hot-tub-person" style="color: #000000;"></i> </li>
-                    <li> 30 days access to swimming pool <i class="fa-sharp fa-solid fa-person-swimming" style="color: #000000;"></i></li>
-                    <li> Personal diet plan <i class="fa-solid fa-fork-knife" style="color: #000000;"></i></li>
-                    <li> Personal trainer included <i class="fa-solid fa-person" style="color: #000000;"></i></li>
-                    <li> Parking <i class="fa-sharp fa-solid fa-square-parking" style="color: #000000;"></i></li>
+                    <li> Full access to all fitness facilities for 30 days<i class="fa-solid fa-dumbbell"></i> </li>
+                    <li> Full access to all classes <i class="fa-solid fa-person-running"></i></li>
+                    <li> 30 days access to sauna <i class="fa-solid fa-hot-tub-person"></i> </li>
+                    <li> 30 days access to swimming pool <i class="fa-sharp fa-solid fa-person-swimming"></i></li>
+                    <li> Personal diet plan <i class="fa-solid fa-fork-knife"></i></li>
+                    <li> Personal trainer included <i class="fa-solid fa-person"></i></li>
+                    <li> Parking <i class="fa-sharp fa-solid fa-square-parking"></i></li>
                 </ul>
-                <h3>150 <i class="fa-solid fa-dollar-sign" style="color: #FFD700;"></i></h3>
+                <h3 class="price">150 <i class="fa-solid fa-dollar-sign" id="goldSign"></i></h3>
             </div>
         </div>
     </div>
@@ -110,7 +109,7 @@
             </div>
         </div>
     
-        <p style="margin-top: 20px;">©Copyright 2050 by nobody. All rights reversed.</p>
+        <p id="Copyright">©Copyright 2050 by nobody. All rights reversed.</p>
     </footer>
     
   </body>
