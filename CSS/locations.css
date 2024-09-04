@@ -1,0 +1,65 @@
+h1{
+    margin: 0;
+    background-image:linear-gradient(to left, #ff008e 35%,  #f00b51 100%, #fd02d3 80% );
+   -webkit-background-clip: text; /*fundalul s epune pe text*/
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: unset;
+    text-align: center;
+    
+}
+ #flex-box{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+} 
+h2{
+
+    background-image: linear-gradient(to left, #ffdd01 0%, #ff0000 31%, #eaff00 100%);
+    -webkit-background-clip: text; /*fundalul s epune pe text*/
+     background-clip: text;
+     -webkit-text-fill-color: transparent;
+     -moz-background-clip: unset;
+     text-align: center;
+}
+
+table, td, tr{
+    text-align: center;   
+   
+    margin:0;
+}
+table img {
+   
+    width: 375px;
+    height: 275px;
+    transition: filter 0.9s ease-in-out;
+}
+
+table p{
+    position: relative;
+    top: -80px;
+    font-size: 35px;
+    text-transform: uppercase;
+    display: none;
+    font-weight: bold;
+}
+
+table td:hover p{
+    display: block;
+    margin:0;
+    background-image: linear-gradient(to left, #ffc000 35%, #ffb301 41%, #fd8700 50%);
+   -webkit-background-clip: text; /*fundalul s epune pe text*/
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: unset;
+    text-align: center;
+}
+
+table td:hover img {
+    filter: brightness(0.3); /* Reduce luminozitatea pentru a întuneca imaginea */
+    transition: filter 0.5s ease-in-out; /* Adaugă o tranziție lină */
+}
+
+
+

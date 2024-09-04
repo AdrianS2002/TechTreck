@@ -1,0 +1,45 @@
+body{
+    display: flex;
+    flex-direction: column;
+}
+#title{
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    animation-name: glow;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+@keyframes glow {
+    50%{
+        text-shadow: 2px 2px 2px #ff008e , 2px 2px 2px #f00b51,  2px 2px 2px #fd02d3;
+    }
+    100%{
+        text-shadow:  2px 2px 2px #ffc000,  2px 2px 2px #f35322,  2px 2px 2px #fdc100;
+    }
+}
+
+#content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+label, input{
+    margin:2px 2px;
+}
+label{
+    margin-right: 2px;
+    font-size: 15px;
+}
+
+
+textarea{
+    resize: none;
+    color: white;
+    font-size: 15px;
+    border: 4px solid;
+    border-image: linear-gradient(to left, #ffc000 0%, #f35322 31%, #fdc100 100%) 1;
+    background-color: rgba(105, 105, 105, 0.81);
+    display: block;
+}

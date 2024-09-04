@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.content-wrapper {
+    display: flex;
+    text-align: center;
+    padding: 20px; /* Optional padding */
+    margin: 0;
+}
+
+iframe {
+    flex: 1; /* Takes up more space */
+    margin:0;
+}
+
+aside {
+    flex: 1; /* Takes up less space compared to iframe */
+    margin-left: 20px; /* Space between iframe and aside */
+  
+    margin:0;
+    text-align: center;
+}
+
+footer {
+    
+    
+    margin-top: 20px;
+    padding: 10px;
+}

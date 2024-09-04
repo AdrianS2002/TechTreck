@@ -1,24 +1,39 @@
+
 h1{
 
     background-image:linear-gradient(to left, #ff008e 35%,  #f00b51 100%, #fd02d3 80% );
-   -webkit-background-clip: text;
+   -webkit-background-clip: text; /*fundalul s epune pe text*/
     background-clip: text;
     -webkit-text-fill-color: transparent;
     -moz-background-clip: unset;
     text-align: center;
-
+    
 }
+body{
+    display: flex;
+    flex-direction: column;
+}
+
 #content{
-    width: 100%;
+    flex: 1; /* Permite elementului să ocupe tot spațiul disponibil */
     text-align: center;
     font-size: 25px;
     color: white;
+    position: static;
+    width: 100%;
+    margin: 0; 
+    padding: 50px 0;
+    
 }
 
 #text{
     margin:25px auto;
     font-weight: bold;
     line-height: 25px;
+}
+#footer {
+    margin: 0; 
+   
 }
 #memberBtn{
     width: 300px;

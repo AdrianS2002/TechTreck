@@ -1,0 +1,121 @@
+body{
+    display: flex;
+    flex-direction: column;
+    
+}
+#footer {
+    position: absolute;
+    margin: 0;
+}
+h1{
+    background-image: linear-gradient(to left, #ffc000 0%, #f35322 31%, #fdc100 100%);
+    -webkit-background-clip: text; 
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: unset;
+    text-align: center;
+    font-size: 40px;
+    padding-bottom: 15px;
+    border-bottom: 2px solid;
+    border-image: linear-gradient(to left, #ff008e 35%,  #f00b51 100%, #fd02d3 80% )1;
+    width: 50%; 
+    margin: auto;
+    
+}
+#membership{
+    display:flex;
+    justify-content: space-around;
+    margin-top:25px;
+}
+
+i{
+    color: white;
+    font-size: 25px;
+    margin-left: 10px;
+}
+
+#bronzeSign{
+    color: #cd7f32;
+}
+
+#silverSign{
+    color: #c0c0c0;
+}
+
+#goldSign{
+    color: #ffd700;
+}
+
+#bronze, #silver, #gold{
+
+    width: 440px;
+    height: 450px;
+    border:2px solid;
+    border-image: linear-gradient(to left, #ffc000 0%, #f35322 31%, #fdc100 100%) 1;   
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#bronze h2{
+    color: #cd7f32;
+    text-align: center;
+}
+
+
+#silver h2{
+    color: #c0c0c0;
+    text-align: center;
+}
+
+#gold h2{
+    color: #ffd700;
+    text-align: center;
+}
+
+#silver:hover{
+    color: #C0C0C0;
+    width: 440px;
+    height: 450px;
+    border: 5px solid;
+    border-image: linear-gradient(to left, #ffc000 0%, #f35322 31%, #fdc100 100%) 1;
+    font-size: 15px;
+    padding-left: 20px;
+    box-shadow: 5px 5px 5px #ff008e , 5px 5px 5px #f00b51,  5px 5px 5px #fd02d3;
+    text-shadow: 3px 3px 5px #C0C0C0;
+}
+
+#gold:hover{
+    color: #FFD700;
+    width: 440px;
+    height: 450px;
+    border: 5px solid;
+    border-image: linear-gradient(to left, #ffc000 0%, #f35322 31%, #fdc100 100%) 1;
+    font-size: 15px;
+    padding-left: 20px;
+    box-shadow: 5px 5px 5px #ff008e , 5px 5px 5px #f00b51,  5px 5px 5px #fd02d3;
+    text-shadow: 3px 3px 5px #FFD700;
+
+}
+
+#bronze:hover{
+    color: #CD7F32;
+     width: 440px;
+     height: 450px;
+     border: 5px solid;
+     border-image: linear-gradient(to left, #ffc000 0%, #f35322 31%, #fdc100 100%) 1;
+     font-size: 15px;
+     padding-left: 20px;
+     box-shadow: 5px 5px 5px #ff008e , 5px 5px 5px #f00b51,  5px 5px 5px #fd02d3;
+     text-shadow: 3px 3px 5px #CD7F32;
+ }
+
+.price{
+    text-align: center;
+    font-size: 30px;
+    margin-top: auto;
+}
+li{
+    font-size: 18px;   
+    margin:5px 5px;
+}
