@@ -6,7 +6,7 @@ body {
 .content-wrapper {
     display: flex;
     text-align: center;
-    padding: 20px; /* Optional padding */
+   
     margin: 0;
 }
 
@@ -16,16 +16,48 @@ iframe {
 }
 
 aside {
-    flex: 1; /* Takes up less space compared to iframe */
-    margin-left: 20px; /* Space between iframe and aside */
-  
-    margin:0;
+    flex: 1; 
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: flex-start; /* daca foloseam center imi taia primul div */
     text-align: center;
+    height: 480px; 
+    overflow-y: auto; 
+    padding-top: 10px; 
+}
+
+aside div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centers content vertically inside each div */
+    align-items: center; /* Centers content horizontally inside each div */
+    border: 1px solid #f35322;
+    width: 50%;
+    background-image: linear-gradient(to left, rgba(255, 192, 0, 0.5) 0%, rgba(243, 83, 34, 0.5) 31%, rgba(253, 193, 0, 0.5) 100%);
+    margin-bottom: 10px;
+    padding: 10px;
+}
+aside div:hover {
+    background-image:linear-gradient(to left, #ffc000 0%, #f35322 31%, #fdc100 100%);
+    transform: scale(1.1);
+    transition: transform 0.5s;
 }
 
 footer {
-    
-    
     margin-top: 20px;
     padding: 10px;
 }
+
+div a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+div a:hover{
+    color: #f322d7;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
