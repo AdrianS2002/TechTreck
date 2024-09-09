@@ -7,6 +7,7 @@ body{
     position: absolute;
     margin: 0;
 }
+
 h1{
     background-image: linear-gradient(to left, #ffc000 0%, #f35322 31%, #fdc100 100%);
     -webkit-background-clip: text; 
