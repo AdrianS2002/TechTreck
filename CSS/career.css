@@ -12,12 +12,13 @@ body{
 }
 @keyframes glow {
     50%{
-        text-shadow: 2px 2px 2px #ff008e , 2px 2px 2px #f00b51,  2px 2px 2px #fd02d3;
+        text-shadow: 2px 2px 2px #ff008e , 2px 2px 2px #f00b51,  2px 2px 2px #fd02d3;    
     }
     100%{
         text-shadow:  2px 2px 2px #ffc000,  2px 2px 2px #f35322,  2px 2px 2px #fdc100;
     }
 }
+
 
 #content{
     display: flex;
@@ -25,21 +26,84 @@ body{
     align-items: center;
 }
 
-label, input{
-    margin:2px 2px;
-}
-label{
-    margin-right: 2px;
-    font-size: 15px;
+input{
+    margin:5px 5px;
+    font-size: 20px;
+    
 }
 
+.formlbl{
+    font-size: 20px;
+    margin:5px;
+}
 
+#radioSec{
+    margin:5px
+}
 textarea{
     resize: none;
     color: white;
-    font-size: 15px;
     border: 4px solid;
     border-image: linear-gradient(to left, #ffc000 0%, #f35322 31%, #fdc100 100%) 1;
     background-color: rgba(105, 105, 105, 0.81);
     display: block;
+    margin:5px;
+    
+}
+
+
+#ln, #fn, #email, #phone, #birth{
+    margin: 10px;
+    padding: 10px;
+    font-size: 20px;
+    background-color: rgba(105, 105, 105, 0.81);
+    color: white;
+}
+#ln{
+    margin-left: 12px;
+}
+#email{
+    margin-left: 50px;
+}
+.radiInput{
+accent-color: orange;
+}
+
+#phone{
+    margin-left: 47px;
+}
+
+#birth{
+    margin-left: 28px;
+    width: 235px;
+}
+
+#file::file-selector-button{
+    padding: 5px;
+    background-image: linear-gradient(to left, #ffc000 0%, #f35322 31%, #fdc100 100%);
+    color: white;
+    cursor: pointer;
+}
+
+#subBtn{
+    border: 2px solid orange;
+}
+
+#send{
+    color: white;
+    padding: 5px;
+    background-image: linear-gradient(to left, #ffc000 0%, #f35322 31%, #fdc100 100%);
+    position: relative;
+}
+
+#reset{
+    color: white;
+    padding: 5px;
+    background-image: linear-gradient(to left, #ffc000 0%, #f35322 31%, #fdc100 100%);
+}
+
+#btns{
+    display: flex;
+    justify-content: space-between;
+    
 }
