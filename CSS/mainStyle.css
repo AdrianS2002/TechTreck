@@ -2,6 +2,7 @@ html, body {
     height: 100%;
     margin: 0;
     padding: 0;
+    scrollbar-color: #f35322 #333; 
 }
 body{
     background-image: linear-gradient(rgba(0, 0, 0, 0.75),rgba(0, 0, 0, 0.75)), url("../images/gymbg.jpg");
@@ -21,6 +22,7 @@ i{
    
     padding: 2px 0;
     display: flex;
+    flex-direction: row;
     align-items: center;
     justify-content:space-between;
     
