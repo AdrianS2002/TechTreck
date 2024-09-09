@@ -31,46 +31,53 @@
         <h1 id="title">Join our team </h1>
         <form>
 
-            <label for="LastName">Last Name:</label>
-            <input type="text" placeholder="Smith" required> <br>
+            <label for="LastName" class="formlbl">Last Name:</label>
+            <input type="text" placeholder="Smith" required id="ln"> <br>
 
-            <label for="FirstName" id="fs">First Name:</label>
-            <input type="text"  placeholder="Jhon"  required> <br>
+            <label for="FirstName" class="formlbl">First Name:</label>
+            <input type="text"  placeholder="Jhon"  required id="fn"> <br>
 
-            <lable for="email" >email:</lable>
-            <input type="email"  placeholder="JSmith@gmail.com" required> <br>
+            <lable for="email" class="formlbl">Email:</lable>
+            <input type="email"  placeholder="JSmith@gmail.com" required id="email"> <br>
 
-            <lable for="phone">Phone:</lable>
-            <input type="tel"  placeholder="0748596456" pattern="[0-9]{10}" required> <br>
+            <lable for="phone" class="formlbl">Phone:</lable>
+            <input type="tel"  placeholder="0748596456" pattern="[0-9]{10}" required id="phone"> <br>
 
-            <lable for="bday" >Birthdate</lable>
-            <input type="date" > <br>
+            <lable for="bday" class="formlbl">Birthdate</lable>
+            <input type="date" id="birth"> <br>
 
-            <lable for="Title">Title:</lable>
+            <lable for="Title" class="formlbl">Title:</lable>
 
-            <div>
-                <lable for="Mr" >Mr.</lable>
-                <input type="radio" value="Mr." name="title"><br>
-                <lable for="Ms" >Ms.</lable>
-                <input type="radio"  value="Ms." name="title"><br>
+            <div id="radioSec">
+                <lable for="Mr" class="formlbl">Mr.</lable>
+                <input type="radio" value="Mr." name="title" class="radiInput"><br>
+                <lable for="Ms" class="formlbl">Ms.</lable>
+                <input type="radio"  value="Ms." name="title"  class="radiInput"><br>
             </div>
 
 
-            <lable for="workbefore" >Have you ever work as a personal trainer? </lable> <br>
-            <label for="yes">YES</label>
-            <input type="radio"  value="yes" name="workbefore"> <br>
-            <label for="no" >NO</label>
-            <input type="radio" value="no" name="workbefore"> <br>
-
-            <label for="description">What recommends you for this job?</label><br>
+            <lable for="workbefore" class="formlbl" >Have you ever work as a personal trainer? </lable> <br>
+            
+            <div id="radioSec">
+                <label for="yes" class="formlbl">YES</label>
+                <input type="radio"  value="yes" name="workbefore"  class="radiInput"> <br>
+                <label for="no" class="formlbl">NO</label>
+                <input type="radio" value="no" name="workbefore"  class="radiInput"> <br>
+            </div>
+            
+            <label for="description"class="formlbl">What recommends you for this job?</label><br>
+            
             <textarea  required  rows="13" cols="150" placeholder="Enter text here"></textarea><br>
-            <label for="file">Upload your resume:</label>
+            
+            <label for="file"class="formlbl">Upload your resume:</label>
+            
             <input type="file" id="file" required><br>
-            <div >
-               <input type="reset" >
-                <input type="submit" value="Send">
+            
+            <div id="btns">
+                <input type="reset" id="reset">
+                <input type="submit" value="Send" id="send">
             </div>
-
+            
         </form>
     </div>
 

@@ -8,6 +8,7 @@
     <meta name="description" content="Log in to Muscle Gym to access your membership, manage your profile, and explore our programs. Join us today and start your fitness journey." />
     <meta name="keywords" content="Muscle Gym, login, membership, fitness, gym, user account, profile management" />
     <link rel="stylesheet" type="text/css" href="../CSS/mainStyle.css">
+    <link rel="stylesheet" type="text/css" href="../CSS/login.css">
     <meta name="author" content="Muscle Gym" />
 
   </head>
@@ -29,15 +30,16 @@
         </nav>
     </header>
 
-    <div>
+    <div id="login">
+        <h1 id="title">Log in to Muscle Gym</h1>
         <form>
             <label for username>Username:</label>
             <input type="text" id="username" name="username" required>
             <br>
             <label for password>Password:</label>
-            <input type="password" id="password" name="password" required>
+            <input type="password" id="password" name="password" required id="password">
             <br>
-            <input type="submit" value="Login">
+            <input type="submit" value="Login" id="logbtn">
         </form>
     </div>
 
