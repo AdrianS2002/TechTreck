@@ -1,0 +1,56 @@
+footer{
+    bottom: 0;
+    position: fixed;
+}
+h1{
+
+    background-image:linear-gradient(to left, #ff008e 35%,  #f00b51 100%, #fd02d3 80% );
+   -webkit-background-clip: text; /*fundalul s epune pe text*/
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: unset;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 40px;
+    margin-bottom: 50px;
+    
+}
+#login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    position: fixed;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    width: 100%;
+}
+
+
+form input{
+    margin: 10px;
+    padding: 10px;
+    font-size: 20px;
+    background-color: rgba(105, 105, 105, 0.81);
+    color: white;
+    
+}
+form label{
+    margin-right: 20px;
+    font-size: 30px;
+}
+
+#logbtn {
+    background-image: linear-gradient(to left, #ffc000 0%, #f35322 31%, #fdc100 100%);
+    color: #ffffff;
+    display: block;
+    margin: 10px auto; 
+    cursor: pointer; 
+    font-weight: bold;
+}
+
+#password{
+    margin-left: 17px;
+}
